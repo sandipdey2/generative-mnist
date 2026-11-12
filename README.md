@@ -23,11 +23,18 @@ jupyter notebook generative_model.ipynb
 
 Run all cells top to bottom. The notebook downloads MNIST automatically on first run.
 
+### Reproducibility verification
+
+![Reproducibility check](reproducibility-screenshot.png)
+
+Clean 21-line `requirements.txt` (exact pins, no local paths) and successful import test.
+
 ## Files
 
 - `generative_model.ipynb` — complete GAN training and generation workflow
 - `module_summary.pdf` — analysis report with exact metrics and citations
 - `requirements.txt` — environment for reproducibility
+- `reproducibility-screenshot.png` — confirmation of clean install
 
 ## Notes
 
